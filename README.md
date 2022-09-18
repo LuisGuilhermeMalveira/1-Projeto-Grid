@@ -4,21 +4,18 @@
 
 Primeiro Projeto da mentoria do Pedro Marins. Nesse projeto vou treinar HTML/CSS me aprofundando um pouco mais em Grid.
 
-# Frontend Mentor - Testimonials grid section solution
-
 Esta é uma solução para o [desafio Testimonials grid section no Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
 ## Índice:
 
 - [Visão Geral](#visao-geral)
   - [O desafio](#o-desafio)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [Meu processo](#meu-processo)
   - [Feito com](#feito-com)
   - [O que Aprendi](#o-que-aprendi)
-  - [Desenvolvimento Contínuo](#desenvolvimento-continuo)
-  - [Recursos úteis](#recursos-uteis)
+  - [Recursos úteis](#recursos-úteis)
 - [Autor](#autor)
 - [Agradecimentos](#agradecimentos)
 
@@ -30,10 +27,14 @@ Os usuários devem ser capazes de:
 
 - Visualizar o layout ideal para o site, dependendo do tamanho da tela do dispositivo
 
-### Screenshot
+### Screenshots
+Modelo Desktop
+<img src="design/desktop-design.jpg" alt="Design Desktop">
 
-![Modelo Desktop](./design/desktop-design.jpg)
-![Modelo Mobile](./design/mobile-design.jpg)
+Modelo mobile <br>
+<img src="design/mobile-design.jpg" alt="Design Mobile">
+
+
 
 ### Links
 
@@ -45,9 +46,7 @@ Os usuários devem ser capazes de:
 - Flexbox
 - CSS Grid
 
-### O que eu aprendi
-
-### Desenvolvimento Contínuo
+### O que aprendi
 
 ### Recursos úteis
 
