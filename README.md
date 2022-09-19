@@ -9,23 +9,26 @@ Esta é uma solução para o [desafio Testimonials grid section no Frontend Ment
 ## Índice:
 
 - [Visão Geral](#visao-geral)
-  - [O desafio](#o-desafio)
+  - [O desafio](#o-desafio)  
+  - [Link do Projeto](#link-do-projeto)
   - [Screenshots](#screenshots)
-  - [Links](#links)
 - [Meu processo](#meu-processo)
   - [Feito com](#feito-com)
   - [O que Aprendi](#o-que-aprendi)
   - [Recursos úteis](#recursos-úteis)
 - [Autor](#autor)
-- [Agradecimentos](#agradecimentos)
 
 ## Visão Geral
 
-### O desafio
+### O Desafio
 
 Os usuários devem ser capazes de:
 
 - Visualizar o layout ideal para o site, dependendo do tamanho da tela do dispositivo
+
+### Link do Projeto
+
+- PROJETO - [Testimonials grid Section - Proposto pelo Front-end Mentor](https://luisguilhermemalveira.github.io/Projeto-Grid.io/)
 
 ### Screenshots
 Modelo Desktop
@@ -34,9 +37,6 @@ Modelo Desktop
 Modelo mobile <br>
 <img src="design/mobile-design.jpg" alt="Design Mobile">
 
-
-
-### Links
 
 ## Meu processo
 
@@ -48,12 +48,14 @@ Modelo mobile <br>
 
 ### O que aprendi
 
+- Aprendi a mexer melhor com Grid e ter mais segurança a iniciar um projeto.
+
 ### Recursos úteis
+
+- Foi de extrema importancia rever alguns conceitos no curso: - [Origamid Grid](https://www.origamid.com/curso/css-grid-layout)
 
 ## Autor
 
 - Website - [Luís Guilherme Theóphilo Malveira](https://github.com/LuisGuilhermeMalveira)
 - Frontend Mentor - [@LuisGuilhermeMalveira](https://www.frontendmentor.io/profile/LuisGuilhermeMalveira)
 - Instagram - [@luisgui21](https://www.instagram.com/luisgui21/)
-
-## Agradecimentos
