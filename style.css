@@ -2,12 +2,21 @@ body {
   font-family: "Barlow Semi Condensed", sans-serif;
   background-color: #edf2f8;
   font-size: 13px;
+  display: grid;
+  justify-content: space-around;
+  margin: 0;
 }
 
 .grid {
   display: grid;
   gap: 20px;
   grid-template-columns: 3fr 1fr;
+  width: 1100px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
 }
 
 .verificado {
@@ -18,7 +27,9 @@ body {
   opacity: 0.7;
 }
 .textogrande {
-  font-size: 24px;
+  font-size: 20px;
+  margin: 20px 0;
+  font-weight: 600;
 }
 
 .danieljonathan {
@@ -41,48 +52,46 @@ body {
 }
 
 .foto {
+  width: 30px;
   border-radius: 100%;
-  border: solid 2px #906bc4;
-}
-.textohomens {
-  color: hsl(0, 0%, 81%);
+  margin: 0 10px;
 }
 
-.textomulheres {
-  color: #4d515a;
+.bordafoto {
+  border: solid 2px #906bc4;
+}
+
+.balao {
+  border-radius: 5px;
+  padding: 24px 38px 38px 38px;
+  display: grid;
+  align-content: space-between;
+  box-shadow: 10px 10px 15px 5px #d5e0ed;
 }
 
 .balaodaniel {
   background-color: hsl(263, 55%, 52%);
-  border-radius: 5px;
-  padding: 2em;
-  grid-template-rows: 2fr;
+  color: #ffffff;
 }
 
 .balaojonathan {
   background-color: hsl(217, 19%, 35%);
-  border-radius: 5px;
-  padding: 2em;
+  color: #ffffff;
 }
 
 .balaojeanette {
   background-color: hsl(0, 0%, 100%);
-  border-radius: 5px;
-  padding: 2em;
+  color: #575e68;
 }
 
 .balaopatrick {
   background-color: hsl(219, 29%, 14%);
-  border-radius: 5px;
-  padding: 2em;
+  color: #ffffff;
 }
 
 .balaokira {
   background-color: hsl(0, 0%, 100%);
-  border-radius: 5px;
-  padding: 2em;
-
-  justify-content: space-between;
+  color: #575e68;
 }
 .attribution {
   font-size: 11px;
