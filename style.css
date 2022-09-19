@@ -4,7 +4,7 @@ body {
   font-size: 13px;
   display: grid;
   justify-content: space-around;
-  margin: 0;
+  margin-top: 150px;
 }
 
 .grid {
@@ -100,4 +100,47 @@ body {
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 1100px) {
+  .grid {
+    width: auto;
+  }
+  body {
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 800px) {
+  .grid {
+    display: block;
+  }
+
+  .balaokira {
+    background-color: hsl(0, 0%, 100%);
+    color: #575e68;
+    margin-top: 20px;
+  }
+  body {
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 475px) {
+  .balaokira {
+    background-color: hsl(0, 0%, 100%);
+    color: #575e68;
+    margin-top: 20px;
+  }
+
+  .danieljonathan {
+    display: block;
+  }
+
+  .balao {
+    margin: 20px;
+  }
+  .jeanettepatrick {
+    display: block;
+  }
 }
