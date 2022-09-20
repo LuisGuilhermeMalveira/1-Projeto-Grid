@@ -31,11 +31,11 @@ Os usuários devem ser capazes de:
 - PROJETO - [Testimonials grid Section - Proposto pelo Front-end Mentor](https://luisguilhermemalveira.github.io/Projeto-Grid.io/)
 
 ### Screenshots
-Modelo Desktop
-<img src="design/desktop-design.jpg" alt="Design Desktop">
+##### Site Desktop
+<img src="design/Desktop.png" alt="Design Desktop">
 
-Modelo mobile <br>
-<img src="design/mobile-design.jpg" alt="Design Mobile">
+##### Site Mobile <br>
+<img src="design/Mobile.png" alt="Design Mobile" width = 50%>
 
 
 ## Meu processo
@@ -48,11 +48,13 @@ Modelo mobile <br>
 
 ### O que aprendi
 
-- Aprendi a mexer melhor com Grid e ter mais segurança a iniciar um projeto.
+- A mexer melhor com Grid e ter mais segurança a iniciar um projeto.
+- A fazer uma boa aprensentação no GitHub.
 
 ### Recursos úteis
 
 - Foi de extrema importancia rever alguns conceitos no curso: - [Origamid Grid](https://www.origamid.com/curso/css-grid-layout)
+- Também utilizei o [Figma](https://www.figma.com/) para descobrir algumas distâncias e cores.
 
 ## Autor
 
