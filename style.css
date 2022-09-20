@@ -17,6 +17,7 @@ body {
 .perfil {
   display: flex;
   align-items: center;
+  z-index: 1;
 }
 
 .verificado {
@@ -26,10 +27,12 @@ body {
 .review {
   opacity: 0.7;
 }
+
 .textogrande {
   font-size: 20px;
   margin: 20px 0;
   font-weight: 600;
+  z-index: 1;
 }
 
 .danieljonathan {
@@ -72,6 +75,12 @@ body {
 .balaodaniel {
   background-color: hsl(263, 55%, 52%);
   color: #ffffff;
+  position: relative;
+}
+
+.aspas {
+  position: absolute;
+  right: 15%;
 }
 
 .balaojonathan {
@@ -124,6 +133,11 @@ body {
   body {
     margin-top: 8px;
   }
+
+  .aspas {
+    position: absolute;
+    right: 10%;
+  }
 }
 
 @media (max-width: 475px) {
@@ -142,5 +156,10 @@ body {
   }
   .jeanettepatrick {
     display: block;
+  }
+
+  .aspas {
+    position: absolute;
+    right: 10%;
   }
 }
