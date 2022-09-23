@@ -119,11 +119,11 @@ body {
 }
 
 @media (max-width: 1100px) {
+  body {
+    margin: 0 20px;
+  }
   .grid {
     width: auto;
-  }
-  body {
-    margin: 20px;
   }
   .grid {
     display: block;
@@ -139,6 +139,12 @@ body {
   .aspas {
     position: absolute;
     right: 10%;
+  }
+}
+
+@media (max-width: 900px) {
+  body {
+    margin: 20px;
   }
 }
 
