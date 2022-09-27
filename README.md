@@ -2,10 +2,9 @@
 
 ## Bem-Vindo! 👋
 
-Primeiro Projeto da mentoria do Pedro Marins. Nesse projeto vou treinar HTML/CSS me aprofundando um pouco mais em Grid.
+Nesse projeto vou treinar HTML/CSS me aprofundando um pouco mais em Grid.
 
-Esta é uma solução para o [desafio Testimonials grid section no Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7). Os desafios do Frontend Mentor ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
-
+Esta é uma solução para o [desafio Testimonials grid section no Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7).
 ## Índice:
 
 - [Visão Geral](#visao-geral)
@@ -18,7 +17,7 @@ Esta é uma solução para o [desafio Testimonials grid section no Frontend Ment
   - [Recursos úteis](#recursos-úteis)
 - [Autor](#autor)
 
-## Visão Geral
+# Visão Geral
 
 ### O Desafio
 
@@ -60,4 +59,4 @@ Os usuários devem ser capazes de:
 
 - Website - [Luís Guilherme Theóphilo Malveira](https://github.com/LuisGuilhermeMalveira)
 - Frontend Mentor - [@LuisGuilhermeMalveira](https://www.frontendmentor.io/profile/LuisGuilhermeMalveira)
-- Instagram - [@luisgui21](https://www.instagram.com/luisgui21/)
+- LinkedIn - [luisguilhermemalveira](https://www.linkedin.com/in/luisguilhermemalveira/)
