@@ -13,7 +13,6 @@ body {
 
 .grid {
   display: grid;
-  gap: 20px;
   grid-template-columns: 3fr 1fr;
   width: 1100px;
   margin: auto;
@@ -40,23 +39,24 @@ body {
   z-index: 1;
 }
 
+.balaodaniel {
+  background-color: hsl(263, 55%, 52%);
+  color: #ffffff;
+  position: relative;
+}
+
 .danieljonathan {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  gap: 20px;
-  margin-bottom: 20px;
 }
 
 .jeanettepatrick {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 20px;
-  margin-top: 20px;
 }
 
 .djjp {
   grid-template-columns: 3fr;
-  gap: 20px;
 }
 
 .foto {
@@ -69,18 +69,19 @@ body {
   border: solid 2px #906bc4;
 }
 
-.balao {
+.baloes {
   border-radius: 5px;
   padding: 24px 38px 38px 38px;
   display: grid;
   align-content: space-between;
-  box-shadow: 10px 10px 15px 5px #d5e0ed;
+  box-shadow: 5px 5px 15px 5px #d5e0ed;
+  margin: 15px;
 }
 
-.balaodaniel {
-  background-color: hsl(263, 55%, 52%);
-  color: #ffffff;
-  position: relative;
+.baloes:hover {
+  color: #1da7db;
+  transition: 0.4s;
+  box-shadow: 5px 5px 25px 5px #94cde3;
 }
 
 .aspas {
@@ -111,11 +112,23 @@ body {
   font-size: 11px;
   text-align: center;
   align-self: self-end;
-  margin: 15px 0;
+  margin: 10px 0;
 }
 
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.focobalao {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 7px 10px;
+  z-index: 9999;
+  font-size: 2em;
+  align-content: center;
 }
 
 @media (max-width: 1100px) {
@@ -132,8 +145,6 @@ body {
   .balaokira {
     background-color: hsl(0, 0%, 100%);
     color: #575e68;
-    margin-top: 20px;
-    margin-bottom: 20px;
   }
 
   .aspas {
@@ -152,7 +163,6 @@ body {
   .balaokira {
     background-color: hsl(0, 0%, 100%);
     color: #575e68;
-    margin-top: 20px;
   }
 
   body {
@@ -161,10 +171,6 @@ body {
 
   .danieljonathan {
     display: block;
-  }
-
-  .balao {
-    margin: 20px;
   }
   .jeanettepatrick {
     display: block;
