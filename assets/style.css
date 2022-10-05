@@ -10,7 +10,7 @@ body {
   margin: 0;
 }
 
-.grid {
+main {
   display: grid;
   gap: 20px;
   grid-template-areas:
@@ -40,6 +40,7 @@ body {
 .textogrande {
   font-size: 20px;
   font-weight: 600;
+  z-index: 1;
 }
 
 .foto {
@@ -59,9 +60,7 @@ body {
   display: flex;
   flex-direction: column;
   align-content: space-between;
-  
   box-shadow: 5px 5px 15px 5px #d5e0ed;
-  
 }
 
 .baloes:hover {
@@ -76,32 +75,32 @@ body {
   z-index: 0;
 }
 
-.balaodaniel {
+.daniel {
   background-color: hsl(263, 55%, 52%);
   color: #ffffff;
   position: relative;
   grid-area: daniel;
 }
 
-.balaojonathan {
+.jonathan {
   background-color: hsl(217, 19%, 35%);
   color: #ffffff;
   grid-area: jonathan;
 }
 
-.balaojeanette {
+.jeanette {
   background-color: hsl(0, 0%, 100%);
   color: #575e68;
   grid-area: jaennete;
 }
 
-.balaopatrick {
+.patrick {
   background-color: hsl(219, 29%, 14%);
   color: #ffffff;
   grid-area: patrick;
 }
 
-.balaokira {
+.kira {
   background-color: hsl(0, 0%, 100%);
   color: #575e68;
   grid-area: kira;
@@ -129,31 +128,33 @@ body {
 }
 
 @media (max-width: 1110px) {
-  .grid {
+  main {
     width: auto;
     margin: auto 10px;
+  }
 }
 
 @media (max-width: 910px) {
-  .grid {
+  main {
     grid-template-areas:
-    "daniel daniel jonathan"
-    "jaennete patrick patrick"
-    "kira kira kira";
+      "daniel daniel jonathan"
+      "jaennete patrick patrick"
+      "kira kira kira";
 
     grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 @media (max-width: 660px) {
-  .grid {
+  main {
     margin: 10px;
     grid-template-areas:
-    "daniel" 
-    "jonathan"
-    "jaennete"
-    "patrick"
-    "kira";
+      "daniel"
+      "jonathan"
+      "jaennete"
+      "patrick"
+      "kira";
 
     grid-template-columns: auto;
-    
+  }
 }
