@@ -1,21 +1,25 @@
 body {
+  display: flex;
+  flex-direction: column;
   font-family: "Barlow Semi Condensed", sans-serif;
   background-color: #edf2f8;
   font-size: 13px;
-  display: grid;
-  justify-content: space-around;
-  min-height: 100vh;
-  padding: 0;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
   margin: 0;
-  grid-template-rows: auto 40px;
-  max-height: 100%;
 }
 
 .grid {
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+  grid-template-areas:
+    "daniel daniel jonathan kira"
+    "jaennete patrick patrick kira";
+
   width: 1100px;
   margin: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .perfil {
@@ -30,39 +34,19 @@ body {
 
 .review {
   opacity: 0.7;
+  flex-grow: 1;
 }
 
 .textogrande {
   font-size: 20px;
-  margin: 20px 0;
   font-weight: 600;
-  z-index: 1;
-}
-
-.balaodaniel {
-  background-color: hsl(263, 55%, 52%);
-  color: #ffffff;
-  position: relative;
-}
-
-.danieljonathan {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-}
-
-.jeanettepatrick {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-}
-
-.djjp {
-  grid-template-columns: 3fr;
 }
 
 .foto {
   width: 30px;
   border-radius: 100%;
-  margin: 0 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
 }
 
 .bordafoto {
@@ -72,10 +56,12 @@ body {
 .baloes {
   border-radius: 5px;
   padding: 24px 38px 38px 38px;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   align-content: space-between;
+  
   box-shadow: 5px 5px 15px 5px #d5e0ed;
-  margin: 15px;
+  
 }
 
 .baloes:hover {
@@ -87,32 +73,44 @@ body {
 .aspas {
   position: absolute;
   right: 15%;
+  z-index: 0;
+}
+
+.balaodaniel {
+  background-color: hsl(263, 55%, 52%);
+  color: #ffffff;
+  position: relative;
+  grid-area: daniel;
 }
 
 .balaojonathan {
   background-color: hsl(217, 19%, 35%);
   color: #ffffff;
+  grid-area: jonathan;
 }
 
 .balaojeanette {
   background-color: hsl(0, 0%, 100%);
   color: #575e68;
+  grid-area: jaennete;
 }
 
 .balaopatrick {
   background-color: hsl(219, 29%, 14%);
   color: #ffffff;
+  grid-area: patrick;
 }
 
 .balaokira {
   background-color: hsl(0, 0%, 100%);
   color: #575e68;
+  grid-area: kira;
 }
+
 .attribution {
   font-size: 11px;
   text-align: center;
-  align-self: self-end;
-  margin: 10px 0;
+  align-self: center;
 }
 
 .attribution a {
@@ -125,59 +123,37 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  margin: 10px 10px;
   z-index: 9999;
   font-size: 1.5em;
   align-content: center;
 }
 
-@media (max-width: 1100px) {
-  body {
-    margin: 0 20px;
-  }
+@media (max-width: 1110px) {
   .grid {
     width: auto;
-  }
+    margin: auto 10px;
+}
+
+@media (max-width: 910px) {
   .grid {
-    display: block;
-  }
+    grid-template-areas:
+    "daniel daniel jonathan"
+    "jaennete patrick patrick"
+    "kira kira kira";
 
-  .balaokira {
-    background-color: hsl(0, 0%, 100%);
-    color: #575e68;
-  }
-
-  .aspas {
-    position: absolute;
-    right: 10%;
-  }
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
-@media (max-width: 900px) {
-  body {
-    margin: 20px;
-  }
-}
+@media (max-width: 660px) {
+  .grid {
+    margin: 10px;
+    grid-template-areas:
+    "daniel" 
+    "jonathan"
+    "jaennete"
+    "patrick"
+    "kira";
 
-@media (max-width: 475px) {
-  .balaokira {
-    background-color: hsl(0, 0%, 100%);
-    color: #575e68;
-  }
-
-  body {
-    margin: auto;
-  }
-
-  .danieljonathan {
-    display: block;
-  }
-  .jeanettepatrick {
-    display: block;
-  }
-
-  .aspas {
-    position: absolute;
-    right: 10%;
-  }
+    grid-template-columns: auto;
+    
 }
