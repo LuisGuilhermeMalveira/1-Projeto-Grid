@@ -124,6 +124,7 @@ main {
   bottom: 0;
   z-index: 9999;
   margin: 10px;
+  font-size: 200%;
 }
 
 @media (max-width: 1110px) {
@@ -155,5 +156,8 @@ main {
       "kira";
 
     grid-template-columns: auto;
+  }
+  body {
+    width: auto;
   }
 }
